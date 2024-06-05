@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hi! Musica Cafe'
+    return { test: "blabla"}
 
 @app.route('/hello')
 def hello():
