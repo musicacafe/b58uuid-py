@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69.0", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,13 +8,14 @@ version = "1.0.0"
 description = "High-performance Base58-encoded UUID library for Python"
 readme = "README.md"
 requires-python = ">=3.8"
-license = "MIT"
+license = {text = "MIT"}
 authors = [{name = "b58uuid contributors", email = "contact@b58uuid.io"}]
 maintainers = [{name = "b58uuid contributors", email = "contact@b58uuid.io"}]
 keywords = ["uuid", "base58", "short-uuid", "encoding", "base58-uuid", "url-safe"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",

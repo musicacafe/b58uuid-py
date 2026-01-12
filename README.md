@@ -3,7 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/b58uuid.svg)](https://pypi.org/project/b58uuid/)
 [![Python versions](https://img.shields.io/pypi/pyversions/b58uuid.svg)](https://pypi.org/project/b58uuid/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/b58uuid/b58uuid-py/workflows/Tests/badge.svg)](https://github.com/b58uuid/b58uuid-py/actions)
+[![Tests](https://github.com/b58uuid/b58uuid-py/actions/workflows/test.yml/badge.svg)](https://github.com/b58uuid/b58uuid-py/actions/workflows/test.yml)
 
 Base58-encoded UUID library for Python with zero dependencies.
 
