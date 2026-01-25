@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Documentation
-    url: https://github.com/b58uuid/b58uuid-py#readme
-    about: Check the README for usage examples and API documentation
-  - name: Security Issue
-    url: https://github.com/b58uuid/b58uuid-py/security/policy
-    about: Report security vulnerabilities privately
