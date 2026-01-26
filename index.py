@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 
-@app.route('/data', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_data():
     # Aqui você pode definir seu JSON de exemplo ou buscar os dados de outra fonte
     data = {
